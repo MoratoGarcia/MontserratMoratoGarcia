@@ -1,0 +1,237 @@
+*{font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;}
+/*Padding secciones generales*/
+section{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+/*Color contrastante del navegador*/
+/*Imagen de home lg*/
+.intro {
+    width: 100%;
+    height: auto;
+    padding: 15em 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/creation.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/*Imagen de home sm*/
+.intron{
+    width: 100%;
+    height: auto;
+    padding: 10em 0;
+    text-align: center;
+    color: #000;
+    background: url(../img/computadora.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/*Portafolio*/
+.portafolio_img{
+    width: 100%;
+    height: 100%;
+}
+.action2{
+    color:#000;
+    font-size: 1.2em;
+    padding:.5em;
+}
+a i{
+    color:#000;
+}
+a i:hover,
+.action2:hover,
+.action2:focus,
+.action:active{
+    color:#C0C0C0;
+}
+.action{
+    font-size: 2em;
+    color:#000;
+}
+.action:hover,
+.action:focus,
+.action:active{
+    color:#81161B;
+}
+
+#Portafolio{
+    text-align: center;
+    background-color:#fff;
+    color:#000;
+    display:table;
+    width: 100%;
+    height: auto;
+}
+
+.carta-container {
+    display: inline-block;
+    height: 25em;
+    margin: 1em;
+    position: relative;
+    width: 25em;
+    z-index: 1;
+}
+.carta-container {
+    -webkit-perspective: 800;
+    -moz-perspective: 800;
+    perspective: 800;
+}
+.carta {
+    box-shadow: 0em 0em .5em #000;
+    height: 100%;
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: all 0.5s;
+    
+    -moz-transform-style: preserve-3d;
+    -moz-transition: all 0.5s;
+    
+    transform-style: preserve-3d;
+    transition: all 0.5s;
+}
+.carta-container:hover .carta{
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.carta .lado{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.carta .frente{
+    background-color:#fff;
+    height: 100%;
+    width: 100%;
+}
+.carta .atras{
+    color:#000;
+    background-image:url(../img/black2.jpg);
+    background-position: top; 
+    height: 100%;
+    width: 100%;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+
+/*Sección Herramientas*/
+#herramientas{
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+#Herramientas{
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+.Herramientas {
+    background: url(../img/wall.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.black{
+    color:#000;
+}
+#Herramientas img{
+    width: 5em;
+    height: 5em;
+    display: inline-block;
+}
+.padding{
+    margin-top:-1em;
+}
+.bac-black{
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 10em 0;
+    text-align: center;
+    color: #000;
+    background: url(../img/black.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/*Proceso Creativo*/
+#Proceso{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    background: url(../img/brain3.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/*Yo*/
+button a{
+    color:#000;
+}
+button a:hover,
+button a:active,
+button a:focus{
+    color:#81161B;
+}
+/*Redes sociales*/
+.socialMedia{
+    width: 5em;
+    height: 5em;
+    display: inline-block;
+    text-align: center;
+}
+.zoom:hover{
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1)
+}
+/*Contacto*/
+#Contacto{
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 10em 0;
+    text-align: center;
+    color:#000;
+    background: url(../img/black2.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/*Contacto*/
+footer{
+    background-color: #000;
+    color:#fff;
+    height: 2em;
+}
+
+
